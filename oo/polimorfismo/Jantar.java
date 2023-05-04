@@ -1,5 +1,8 @@
 package oo.polimorfismo;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Jantar {
 
 	public static void main(String[] args) {
@@ -21,5 +24,13 @@ public class Jantar {
 		
 		convidado.comer(sobremesa);
 		System.out.println(convidado.getPeso());
+
+		Sorvete sorvete = new Sorvete(10);
+		List<Integer> pesos = Arrays.asList(10, 15, 20);
+
+		pesos.forEach(sorvete::somaPeso);
+		pesos.forEach((peso) -> sorvete.somaPeso(peso));
+
+
 	}
 }
