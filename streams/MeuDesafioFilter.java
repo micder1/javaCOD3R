@@ -38,7 +38,7 @@ public class MeuDesafioFilter {
         Agente i4 = new Agente("kayo", "iniciador", 54.6);
         Agente i5 = new Agente("Gekko", "iniciador", 51.6);
         Agente i6 = new Agente("Sova", "iniciador", 47.9);
-
+        
         List<Agente> agentes = Arrays.asList(d1,d2,d3,d4,d5,d6,d7,c1,c2,c3,c4,
         c5,s1,s2,s3,s4,i1,i2,i3,i4,i5,i6);
 
