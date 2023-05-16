@@ -1,7 +1,7 @@
 import classes.Comida;
 import classes.Pessoa;
 
-public class App {
+public class AppEstClasses {
     public static void main(String[] args) throws Exception {
         
         Comida c1 = new Comida(3, "hamburger");

@@ -20,16 +20,16 @@ public class Reduce3 {
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		Function<Aluno, Double> apenasNota = a -> a.nota;
 		
-		BiFunction<Media, Double, Media> calcularMedia = 
-				(media, nota) -> media.adicionar(nota);
-		BinaryOperator<Media> combinarMedia = 
-				(m1, m2) -> Media.combinar(m1, m2);
+		BiFunction<Media, Double, Media> calcularMedia =
+				Media::adicionar;
+		BinaryOperator<Media> combinerMedia =
+				Media::combinar;
 			
 		
 		Media media = alunos.parallelStream()
 			.filter(aprovado)
 			.map(apenasNota)
-			.reduce(new Media(), calcularMedia, combinarMedia);
+			.reduce(new Media(), calcularMedia, combinerMedia);
 		
 		System.out.println("A média da turma é " + media.getValor());
 	}
