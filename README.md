@@ -2,7 +2,8 @@
 
 Este repositório contém uma coleção de exercícios práticos realizados no curso de java da Cod3r:
 
-###Temas:
+### Temas:
+
 -**Estruturas de Dados**: Exercícios relacionados às diferentes estruturas de dados em Java, como arrays, listas, pilhas, filas e árvores.
 -**Collections**: Exercícios que exploram as classes e interfaces do framework de Collections em Java, como List, Set, Map, e suas implementações.
 -**Equals e HashCode**: Exercícios que abordam a implementação correta dos métodos equals() e hashCode() para garantir a consistência dos objetos em operações de comparação e uso em coleções.
