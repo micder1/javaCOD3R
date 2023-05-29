@@ -1,6 +1,6 @@
 # Exercicios-JavaCod3r
 
-Este repositório contém uma coleção de exercícios práticos realizados no curso de java da Cod3r:
+Este repositório contém uma coleção de exercícios práticos, resumos e exemplos realizados no curso de java da Cod3r:
 
 ### Temas:
 
